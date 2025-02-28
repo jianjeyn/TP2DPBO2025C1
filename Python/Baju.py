@@ -24,18 +24,3 @@ class Baju(Aksesoris):
 
     def setMerk(self, merk):
         self.__merk = merk
-
-    # Method untuk menampilkan semua informasi dalam satu tempat
-    def displayInfo(self):
-        print("======================================================================")
-        print(f"ID      : {self.getId()}")
-        print(f"Nama    : {self.getNama()}")
-        print(f"Stok    : {self.getStok()}")
-        print(f"Harga   : {self.getHarga()}")
-        print(f"Jenis   : {self.getJenis()}")
-        print(f"Bahan   : {self.getBahan()}")
-        print(f"Warna   : {self.getWarna()}")
-        print(f"Untuk   : {self.__untuk}")
-        print(f"Size    : {self.__size}")
-        print(f"Merk    : {self.__merk}")
-        print("======================================================================")
