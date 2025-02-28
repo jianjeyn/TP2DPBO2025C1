@@ -45,14 +45,4 @@ public class Aksesoris extends Petshop {
         this.warna = warna;
     }
 
-    // Method untuk menampilkan data
-    public void displayInfo() {
-        System.out.println("ID: " + getId());
-        System.out.println("Nama Produk: " + getNama());
-        System.out.println("Harga: " + getHarga());
-        System.out.println("Stok: " + getStok());
-        System.out.println("Jenis: " + jenis);
-        System.out.println("Bahan: " + bahan);
-        System.out.println("Warna: " + warna);
-    }
 }
