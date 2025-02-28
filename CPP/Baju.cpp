@@ -27,19 +27,4 @@ class Baju : public Aksesoris {
     
         string getMerk() const { return merk; }
         void setMerk(string merk) { this->merk = merk; }
-
-        void displayInfo() {
-            cout << "=======================================" << endl;
-            cout << "ID      : " << getId() << endl;
-            cout << "Nama    : " << getNama() << endl;
-            cout << "Stok    : " << getStok() << endl;
-            cout << "Harga   : " << getHarga() << endl;
-            cout << "Jenis   : " << getJenis() << endl;
-            cout << "Bahan   : " << getBahan() << endl;
-            cout << "Warna   : " << getWarna() << endl;
-            cout << "Untuk   : " << untuk << endl;
-            cout << "Size    : " << size << endl;
-            cout << "Merk    : " << merk << endl;
-            cout << "=======================================" << endl;
-        }
 };
