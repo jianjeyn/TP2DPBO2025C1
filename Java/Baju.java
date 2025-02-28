@@ -44,12 +44,4 @@ public class Baju extends Aksesoris {
     public void setMerk(String merk) {
         this.merk = merk;
     }
-
-    // Method untuk menampilkan data
-    public void displayInfo() {
-        super.displayInfo(); // Memanggil method dari Aksesoris
-        System.out.println("Untuk: " + untuk);
-        System.out.println("Size: " + size);
-        System.out.println("Merk: " + merk);
-    }
 }
