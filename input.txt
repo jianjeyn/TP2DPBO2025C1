@@ -1,0 +1,43 @@
+UNTUK CPP, JAVA, DAN PYTHON
+-------------------------------------------------
+5 Data Awal
+B001 Baju Anjing 10 100000 Pakaian Katun Merah Anjing M DogWear
+B002 Baju Kucing 8 95000 Pakaian Wool Biru Kucing S CatStyle
+B003 Jaket Anjing 12 120000 Jaket Kulit Hitam Anjing L DogFashion
+B004 Topi Kucing 15 45000 Aksesoris Kanvas Pink Kucing S CatTrend
+B005 Kaus Hewan 9 80000 Pakaian Katun Hijau Umum M PetWear
+
+TC1
+y
+B006
+Kalung Kucing
+13
+120000
+Aksesoris
+Plastik
+Merah
+Kucing
+M
+H&M
+
+TC2
+y
+B007
+Tali Anjing
+18
+100000
+Aksesoris
+Plastik
+Pink
+Anjing
+OneSize
+Zara
+
+UNTUK PYTHON
+-------------------------------------------------
+B001 Baju Anjing 10 100000 Pakaian Katun Merah Anjing M DogWear
+B002 Baju Kucing 8 95000 Pakaian Wool Biru Kucing S CatStyle
+B003 Jaket Anjing 12 120000 Jaket Kulit Hitam Anjing L DogFashion
+B004 Topi Kucing 15 45000 Aksesoris Kanvas Pink Kucing S CatTrend
+B005 Kaus Hewan 9 80000 Pakaian Katun Hijau Umum M PetWear
+B006 Kalung Kucing 13 23000 Aksesoris Plastik Merah Kucing All Size H&M
