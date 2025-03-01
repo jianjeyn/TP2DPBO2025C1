@@ -23,7 +23,7 @@ Program ini memungkinkan pengguna untuk melihat data produk yang sudah ada, mena
 Program dimulai dengan inisialisasi lima produk awal yang dimasukkan ke dalam daftarProduk. Data produk yang ada kemudian ditampilkan dalam bentuk tabel yang terstruktur dengan rapi. Selanjutnya, program memasuki loop input pengguna, di mana pengguna diminta untuk memasukkan data produk baru. Setelah itu, produk baru ditambahkan ke dalam daftarProduk dan tabel diperbarui untuk menampilkan produk yang baru saja dimasukkan. Proses ini dapat diulang, memungkinkan pengguna untuk menambah lebih banyak produk jika diinginkan. Program akan berhenti ketika pengguna memilih untuk tidak menambah produk lagi, menandakan bahwa program telah selesai.
 
 ## Diagram
-![image](https://github.com/user-attachments/assets/848c64f0-a27f-4bbc-91db-9a1cebb0ad72)
+![diagramm](https://github.com/user-attachments/assets/dfe850ae-de74-4312-98f9-d0f1ae4ebfec)
 
 ## Desain Program
 Desain class diagram ini menggambarkan hubungan inheritance antara tiga kelas: Petshop, Aksesoris, dan Baju. Petshop adalah kelas dasar yang menyimpan atribut umum untuk produk petshop yaitu id, nama, harga, dan stok, serta menyediakan getter dan setter untuk mengakses atribut tersebut. Aksesoris adalah kelas turunan dari Petshop atau anak yang menambahkan atribut khusus untuk produk aksesoris yaitu jenis, bahan, dan warna. Selanjutnya, Baju sebagai turunan dari Aksesoris menambahkan atribut spesifik terkait pakaian, yaitu untuk siapa barang tersebut, size, dan juga merk, sehingga membentuk hierarki yang memungkinkan pengelolaan data produk petshop.
